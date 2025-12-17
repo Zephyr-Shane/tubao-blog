@@ -1,4 +1,4 @@
-import { defineNoteConfig, defineNotesConfig } from "vuepress-theme-plume";
+import { defineNotesConfig } from "vuepress-theme-plume";
 
 const childrenNote = [
   {

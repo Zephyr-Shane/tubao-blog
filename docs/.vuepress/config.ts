@@ -68,6 +68,7 @@ export default defineUserConfig({
         // categoriesExpand: 'deep', // 分类展开层级 number|'deep'
         // categoriesTransform: categories => categories, // 分类转换函数
       },
+      { type: "doc", dir: "test", title: "笔记" },
     ],
   }),
 });

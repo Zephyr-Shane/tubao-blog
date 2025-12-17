@@ -12,15 +12,20 @@ export const navbar = defineNavbarConfig([
     icon: "material-symbols:article-outline",
   },
   {
-    text: "标签",
-    link: "/blog/tags/",
-    icon: "material-symbols:bookmark-add-outline",
+    text: "MySQL",
+    link: "/test/mysql/",
+    icon: "material-symbols:article-outline",
   },
-  {
-    text: "归档",
-    link: "/blog/archives/",
-    icon: "material-symbols:assignment-add-outline",
-  },
+  //   {
+  //     text: "标签",
+  //     link: "/blog/tags/",
+  //     icon: "material-symbols:bookmark-add-outline",
+  //   },
+  //   {
+  //     text: "归档",
+  //     link: "/blog/archives/",
+  //     icon: "material-symbols:assignment-add-outline",
+  //   },
   {
     text: "简历",
     link: "/resume/",
@@ -37,7 +42,7 @@ export const navbar = defineNavbarConfig([
     items: [
       { text: "Mysql", link: "/notes/demo/" },
       { text: "示例2", link: "/notes/test/" },
-      { text: "示例3", link: "/notes/study/"},  //导航到这个路径
+      { text: "示例3", link: "/notes/study/" }, //导航到这个路径
     ],
   },
 ]);

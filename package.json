@@ -26,6 +26,9 @@
   },
   "dependencies": {
     "chart.js": "^4.5.1",
-    "mermaid": "^11.12.2"
+    "mermaid": "^11.12.2",
+    "ogl": "^1.0.11",
+    "postprocessing": "^6.38.1",
+    "three": "^0.182.0"
   }
 }
