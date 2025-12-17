@@ -3,7 +3,7 @@ import { defineUserConfig } from "vuepress";
 import { plumeTheme } from "vuepress-theme-plume";
 
 export default defineUserConfig({
-  base: "/",
+  base: "/tubao-blog/",
   lang: "zh-CN",
   title: "Zephyr's Blog",
   description: "This zephyr-blog is built with Vuepress-theme-plume!",
@@ -18,23 +18,22 @@ export default defineUserConfig({
       createTime: true,
       title: true,
     },
-    plugins: {
-     
-    },
-    markdown: { 
+    plugins: {},
+    markdown: {
       mermaid: true,
       chartjs: true,
       // ...
     },
     copyright: {
-      author: 'Zephyr-Shane', 
-      creation: 'original',
-      license: 'MIT'
+      author: "Zephyr-Shane",
+      creation: "original",
+      license: "MIT",
     },
-    collections: [ 
-      { type: 'post',
-        dir: 'blog',
-        title: '博客',
+    collections: [
+      {
+        type: "post",
+        dir: "blog",
+        title: "博客",
         postList: true, // 启用文章列表页
         // autoFrontmatter: {
         //   title: true, // 自动生成标题
@@ -54,7 +53,7 @@ export default defineUserConfig({
         //   organization: '组织名称', // 所属组织
         //   layout: 'right', // 布局位置 left|right
         // },
-        link: '/blog/', // 列表页链接
+        link: "/blog/", // 列表页链接
         // linkPrefix: '/blog/', // 文章链接前缀
         // tags: true, // 启用标签页
         // tagsLink: '/blog/tags/', // 标签页链接
@@ -68,7 +67,7 @@ export default defineUserConfig({
         // categoriesText: '分类', // 分类页标题
         // categoriesExpand: 'deep', // 分类展开层级 number|'deep'
         // categoriesTransform: categories => categories, // 分类转换函数
-      }
-    ]
+      },
+    ],
   }),
 });
