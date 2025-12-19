@@ -1,7 +1,8 @@
 ---
 title: MySQL
 tags:
-  - MySQL面试题
+  - 面试
+  - MySQL
 createTime: 2023/03/27 16:05:16
 permalink: /interview/mysql/
 ---
