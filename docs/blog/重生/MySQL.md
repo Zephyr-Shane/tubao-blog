@@ -4,7 +4,7 @@ tags:
   - 面试
   - MySQL
 createTime: 2023/03/27 16:05:16
-permalink: /interview/mysql/
+permalink: /notes/interview/mysql/
 ---
 # 1.事务
 

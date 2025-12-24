@@ -4,7 +4,7 @@ tags:
   - Java
   - JDK
 createTime: 2025/12/24 16:13:14
-permalink: /blog/jdk/version/
+permalink: /java/jdk/version-control/
 ---
 
 # JDK多版本控制【Windows】

@@ -6,7 +6,7 @@ tags:
   - 无头浏览器渲染
   - 踩坑
 createTime: 2025/12/18 17:12:42
-permalink: /blog/ovupif90/
+permalink: /external/ovupif90/
 ---
 
 ## 使用场景

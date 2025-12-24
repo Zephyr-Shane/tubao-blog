@@ -5,7 +5,7 @@ tags:
   - vuepress-theme-plume
   - 部署
 createTime: 2025/12/19 15:13:14
-permalink: /blog/theme/plume/
+permalink: /plume/theme/deployment/
 ---
 
 ## 官网教程
