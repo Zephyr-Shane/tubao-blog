@@ -1,10 +1,11 @@
 ---
-title: 软件
+title: jetbrains【2025最新版】1
+icon: logos:jetbrains
 createTime: 2025/10/18 17:26:37
-permalink: /share/crack/
+permalink: /crack/jetbrains1/
 ---
 
-## jetbrains全家桶
+## jetbrains全家桶1
 > 转载:[IntelliJ IDEA 2025.1.4 最新破解工具 激活到2099 永久破解教程 免费下载 亲测可用](https://zhuanlan.zhihu.com/p/1932770777503077742)
 
 ### 特此声明

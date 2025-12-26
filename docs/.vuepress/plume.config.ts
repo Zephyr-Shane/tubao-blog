@@ -21,4 +21,10 @@ export default defineThemeConfig({
         {icon: "github", link: "https://github.com/Zephyr-Shane"},
         {icon: "qq", link: "https://im.qq.com/"},
     ],
+    // navbarSocialInclude: ['github', 'email', 'discord'],
+    editLinkText: '在 GitHub 上编辑此页',
+    footer: {
+        message: "这是页脚信息",
+        copyright: 'Copyright © 2025-present Zephyr-Shane',
+    },
 });

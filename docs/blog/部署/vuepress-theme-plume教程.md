@@ -9,7 +9,7 @@ permalink: /plume/theme/deployment/
 ---
 
 ## 官网教程
-<Swiper :items="['./theme-plume/theme-plume主题首页.png','./theme-plume/theme-plume主题指南.png','./theme-plume/theme-plume主题博客主页.png']" effect="creative" :creativeEffect="{
+<Swiper :items="['./images/theme-plume/theme-plume主题首页.png','./images/theme-plume/theme-plume主题指南.png','./images/theme-plume/theme-plume主题博客主页.png']" effect="creative" :creativeEffect="{
 prev: { shadow: true, translate: ['-125%', 0, -800], rotate: [0, 0, -90] },
 next: { shadow: true, translate: ['125%', 0, -800], rotate: [0, 0, 90] },
 }"

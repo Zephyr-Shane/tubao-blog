@@ -2,8 +2,9 @@ import {viteBundler} from "@vuepress/bundler-vite";
 import {defineUserConfig} from "vuepress";
 import {plumeTheme} from "vuepress-theme-plume";
 import collections from './collections/index.ts';
-const __dirname = getDirname(import.meta.url)
-import { getDirname, path } from 'vuepress/utils'
+const __dirname = getDirname(import.meta.url);
+import { getDirname, path } from 'vuepress/utils';
+
 
 export default defineUserConfig({
     base: "/blog/",
@@ -34,7 +35,7 @@ export default defineUserConfig({
                 // '/notes/vuepress-theme-plume/': '123456',
                 // 可以是 访问地址的请求路径，对该访问路径下所有文章加密
                 '/resume/': 'zephyr',
-                '/share/': 'zephyr',
+                // '/share/': 'zephyr',
                 // 可以是 具体的某个页面的请求路径，对该页面加密
                 // '/article/f8dnci3/': '123456',
                 // 如果是 `^` 开头，则匹配该正则表达式的页面也会加密
@@ -55,7 +56,6 @@ export default defineUserConfig({
         // blog: {},
         // 添加您的部署域名
         // hostname: 'https://your_site_url',
-
         // 贡献者
         // 默认启用，仅当 plugins.git 为 true 时生效
         // 此配置在 plume.config.ts 中无效
@@ -72,7 +72,6 @@ export default defineUserConfig({
             // git: process.env.NODE_ENV === 'production'
             git: true,
         },
-
         autoFrontmatter: {
             permalink: true,
             createTime: true,
@@ -82,7 +81,6 @@ export default defineUserConfig({
             icon: {provider: 'iconify', size: '2em'}, // 默认支持
             mermaid: true,
             chartjs: true,
-            // ...
         },
         // 文章版权
         copyright: {
@@ -91,12 +89,7 @@ export default defineUserConfig({
             license: "MIT",
         },
         collections: collections,
-        footer: {
-            message: "这是页脚信息",
-            copyright: "Powered by VuePress & vuepress-theme-plume",
-        },
     }),
-
     // 自定义组件
     alias: {
         '@theme/layouts/NotFound.vue': path.resolve(
